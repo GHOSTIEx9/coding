@@ -35,7 +35,7 @@
 .searchbar {
 
     float: right;
-    padding-top: 1.6rem;
+    padding-top: 1.3rem;
 }
 
 .searchbar form input {
@@ -58,11 +58,16 @@
     border-radius: 1rem;
     outline: none;
     border: none;
-    margin-left: 1rem;
     margin-right: 2rem; 
 }
 
 ::placeholder {
     color: rgb(142, 0, 0);
     opacity: 0.8;
+}
+
+.searchbar form button:hover {
+
+    color: rgb(143, 0, 0);
+    font-size: 2rem;
 }
